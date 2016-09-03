@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C836BD1D7AEF3B00B23A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C836BC1D7AEF3B00B23A0F /* main.m */; };
+		04C836C01D7AEF3B00B23A0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C836BF1D7AEF3B00B23A0F /* AppDelegate.m */; };
+		04C836C31D7AEF3B00B23A0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C836C21D7AEF3B00B23A0F /* ViewController.m */; };
+		04C836C61D7AEF3B00B23A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C836C41D7AEF3B00B23A0F /* Main.storyboard */; };
+		04C836C81D7AEF3B00B23A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C836C71D7AEF3B00B23A0F /* Assets.xcassets */; };
+		04C836CB1D7AEF3B00B23A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C836C91D7AEF3B00B23A0F /* LaunchScreen.storyboard */; };
+		04C836D51D7AEF7B00B23A0F /* CHTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C836D41D7AEF7B00B23A0F /* CHTPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C836B81D7AEF3B00B23A0F /* CHTPickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHTPickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C836BC1D7AEF3B00B23A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C836BE1D7AEF3B00B23A0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C836BF1D7AEF3B00B23A0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C836C11D7AEF3B00B23A0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04C836C21D7AEF3B00B23A0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04C836C51D7AEF3B00B23A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C836C71D7AEF3B00B23A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C836CA1D7AEF3B00B23A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C836CC1D7AEF3B00B23A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C836D31D7AEF7B00B23A0F /* CHTPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTPickerView.h; path = CHTPickerViewDemo/CHTPickerView.h; sourceTree = SOURCE_ROOT; };
+		04C836D41D7AEF7B00B23A0F /* CHTPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTPickerView.m; path = CHTPickerViewDemo/CHTPickerView.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C836B51D7AEF3B00B23A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C836AF1D7AEF3B00B23A0F = {
+			isa = PBXGroup;
+			children = (
+				04C836BA1D7AEF3B00B23A0F /* CHTPickerViewDemo */,
+				04C836B91D7AEF3B00B23A0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C836B91D7AEF3B00B23A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C836B81D7AEF3B00B23A0F /* CHTPickerViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C836BA1D7AEF3B00B23A0F /* CHTPickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04C836D21D7AEF6700B23A0F /* CHTPickerView */,
+				04C836BE1D7AEF3B00B23A0F /* AppDelegate.h */,
+				04C836BF1D7AEF3B00B23A0F /* AppDelegate.m */,
+				04C836C11D7AEF3B00B23A0F /* ViewController.h */,
+				04C836C21D7AEF3B00B23A0F /* ViewController.m */,
+				04C836C41D7AEF3B00B23A0F /* Main.storyboard */,
+				04C836C71D7AEF3B00B23A0F /* Assets.xcassets */,
+				04C836C91D7AEF3B00B23A0F /* LaunchScreen.storyboard */,
+				04C836CC1D7AEF3B00B23A0F /* Info.plist */,
+				04C836BB1D7AEF3B00B23A0F /* Supporting Files */,
+			);
+			path = CHTPickerViewDemo;
+			sourceTree = "<group>";
+		};
+		04C836BB1D7AEF3B00B23A0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C836BC1D7AEF3B00B23A0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C836D21D7AEF6700B23A0F /* CHTPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				04C836D31D7AEF7B00B23A0F /* CHTPickerView.h */,
+				04C836D41D7AEF7B00B23A0F /* CHTPickerView.m */,
+			);
+			name = CHTPickerView;
+			path = ../../CHTPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C836B71D7AEF3B00B23A0F /* CHTPickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C836CF1D7AEF3B00B23A0F /* Build configuration list for PBXNativeTarget "CHTPickerViewDemo" */;
+			buildPhases = (
+				04C836B41D7AEF3B00B23A0F /* Sources */,
+				04C836B51D7AEF3B00B23A0F /* Frameworks */,
+				04C836B61D7AEF3B00B23A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTPickerViewDemo;
+			productName = CHTPickerViewDemo;
+			productReference = 04C836B81D7AEF3B00B23A0F /* CHTPickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C836B01D7AEF3B00B23A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Roy Chan";
+				TargetAttributes = {
+					04C836B71D7AEF3B00B23A0F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 04C836B31D7AEF3B00B23A0F /* Build configuration list for PBXProject "CHTPickerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C836AF1D7AEF3B00B23A0F;
+			productRefGroup = 04C836B91D7AEF3B00B23A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C836B71D7AEF3B00B23A0F /* CHTPickerViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C836B61D7AEF3B00B23A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C836CB1D7AEF3B00B23A0F /* LaunchScreen.storyboard in Resources */,
+				04C836C81D7AEF3B00B23A0F /* Assets.xcassets in Resources */,
+				04C836C61D7AEF3B00B23A0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C836B41D7AEF3B00B23A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C836C31D7AEF3B00B23A0F /* ViewController.m in Sources */,
+				04C836C01D7AEF3B00B23A0F /* AppDelegate.m in Sources */,
+				04C836D51D7AEF7B00B23A0F /* CHTPickerView.m in Sources */,
+				04C836BD1D7AEF3B00B23A0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04C836C41D7AEF3B00B23A0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C836C51D7AEF3B00B23A0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C836C91D7AEF3B00B23A0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C836CA1D7AEF3B00B23A0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C836CD1D7AEF3B00B23A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C836CE1D7AEF3B00B23A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C836D01D7AEF3B00B23A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CHTPickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHT.CHTPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04C836D11D7AEF3B00B23A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CHTPickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHT.CHTPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C836B31D7AEF3B00B23A0F /* Build configuration list for PBXProject "CHTPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C836CD1D7AEF3B00B23A0F /* Debug */,
+				04C836CE1D7AEF3B00B23A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C836CF1D7AEF3B00B23A0F /* Build configuration list for PBXNativeTarget "CHTPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C836D01D7AEF3B00B23A0F /* Debug */,
+				04C836D11D7AEF3B00B23A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C836B01D7AEF3B00B23A0F /* Project object */;
+}
