@@ -38,7 +38,9 @@
 
 - (IBAction)show:(id)sender {
     
-    _pickerView = [[CHTPickerView alloc]initWithFrame:CGRectMake(0, SCREEN_HEIGHT / 2, SCREEN_WIDTH, SCREEN_HEIGHT / 2) dataArray:_dataArray selectRow:_selectRow];
+    _pickerView = [[CHTPickerView alloc]initWithFrame:CGRectMake(0, SCREEN_HEIGHT / 2, SCREEN_WIDTH, SCREEN_HEIGHT / 2)
+                                            dataArray:_dataArray
+                                            selectRow:_selectRow];
     _pickerView.delegate = self;
     [[UIApplication sharedApplication].keyWindow addSubview:_pickerView];
     

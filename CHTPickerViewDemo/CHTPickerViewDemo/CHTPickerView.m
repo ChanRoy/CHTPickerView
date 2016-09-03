@@ -15,7 +15,7 @@
 
 @interface CHTPickerView () <UIPickerViewDelegate, UIPickerViewDataSource, UIGestureRecognizerDelegate>
 
-@property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, strong) NSArray <NSString *> *dataArray;
 
 @property (nonatomic, strong) UIView *contentView;
 

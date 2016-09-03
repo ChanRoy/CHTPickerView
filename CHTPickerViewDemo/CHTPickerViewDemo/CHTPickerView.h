@@ -22,6 +22,8 @@
 
 @property (nonatomic, assign) id <CHTPickerViewDelegate> delegate;
 
-- (instancetype)initWithFrame:(CGRect)frame dataArray:(NSArray *)dataArray selectRow:(NSInteger)selectRow;
+- (instancetype)initWithFrame:(CGRect)frame
+                    dataArray:(NSArray <NSString *>*)dataArray
+                    selectRow:(NSInteger)selectRow;
 
 @end
