@@ -13,7 +13,7 @@
 		04C836C61D7AEF3B00B23A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C836C41D7AEF3B00B23A0F /* Main.storyboard */; };
 		04C836C81D7AEF3B00B23A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C836C71D7AEF3B00B23A0F /* Assets.xcassets */; };
 		04C836CB1D7AEF3B00B23A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C836C91D7AEF3B00B23A0F /* LaunchScreen.storyboard */; };
-		04C836D51D7AEF7B00B23A0F /* CHTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C836D41D7AEF7B00B23A0F /* CHTPickerView.m */; };
+		AEB83AEB1E73AA8F00A74A76 /* CHTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB83AEA1E73AA8F00A74A76 /* CHTPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		04C836C71D7AEF3B00B23A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C836CA1D7AEF3B00B23A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C836CC1D7AEF3B00B23A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04C836D31D7AEF7B00B23A0F /* CHTPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTPickerView.h; path = CHTPickerViewDemo/CHTPickerView.h; sourceTree = SOURCE_ROOT; };
-		04C836D41D7AEF7B00B23A0F /* CHTPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTPickerView.m; path = CHTPickerViewDemo/CHTPickerView.m; sourceTree = SOURCE_ROOT; };
+		AEB83AE91E73AA8F00A74A76 /* CHTPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTPickerView.h; sourceTree = "<group>"; };
+		AEB83AEA1E73AA8F00A74A76 /* CHTPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		04C836BA1D7AEF3B00B23A0F /* CHTPickerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				04C836D21D7AEF6700B23A0F /* CHTPickerView */,
+				AEB83AE81E73AA8F00A74A76 /* CHTPickerView */,
 				04C836BE1D7AEF3B00B23A0F /* AppDelegate.h */,
 				04C836BF1D7AEF3B00B23A0F /* AppDelegate.m */,
 				04C836C11D7AEF3B00B23A0F /* ViewController.h */,
@@ -83,11 +83,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		04C836D21D7AEF6700B23A0F /* CHTPickerView */ = {
+		AEB83AE81E73AA8F00A74A76 /* CHTPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				04C836D31D7AEF7B00B23A0F /* CHTPickerView.h */,
-				04C836D41D7AEF7B00B23A0F /* CHTPickerView.m */,
+				AEB83AE91E73AA8F00A74A76 /* CHTPickerView.h */,
+				AEB83AEA1E73AA8F00A74A76 /* CHTPickerView.m */,
 			);
 			name = CHTPickerView;
 			path = ../../CHTPickerView;
@@ -165,7 +165,7 @@
 			files = (
 				04C836C31D7AEF3B00B23A0F /* ViewController.m in Sources */,
 				04C836C01D7AEF3B00B23A0F /* AppDelegate.m in Sources */,
-				04C836D51D7AEF7B00B23A0F /* CHTPickerView.m in Sources */,
+				AEB83AEB1E73AA8F00A74A76 /* CHTPickerView.m in Sources */,
 				04C836BD1D7AEF3B00B23A0F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +313,7 @@
 				04C836D11D7AEF3B00B23A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
